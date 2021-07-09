@@ -29,7 +29,7 @@ def split(list):
     Takes overall 0(k log n) time
     """
 
-    midPoint = len(list) // 2
+    midPoint = len(list) // 2 # use // to round down, floor
 
     return list[:midPoint], list[midPoint:]
 
